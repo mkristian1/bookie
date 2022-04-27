@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 0;
+    &__logo {
+        max-width: 220px;
+    }
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 38px;
+    &__link {
+        text-decoration: none;
+        color: var(--mk-white);
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

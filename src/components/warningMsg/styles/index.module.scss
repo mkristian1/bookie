@@ -1,0 +1,10 @@
+.warning-msg {
+    background: var(--mk-green-gradient);
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    &__close-btn {
+        float: right;
+        font-size: 18px;
+    }
+}

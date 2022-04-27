@@ -1,0 +1,25 @@
+.timer {
+    padding: 375px 0 38px;
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
+    &__item {
+        text-align: center;
+    }
+    &__value {
+        font-size: 36px;
+        font-weight: 700;
+        &_type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.time-wrap {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}

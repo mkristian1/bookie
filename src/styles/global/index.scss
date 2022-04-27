@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+    --mk-main: #7009ed;
+    --mk-white: #fff;
+    --text-color: #000000;
+    --mk-boder-color: #ebebeb;
+    --mk-green-gradient: linear-gradient(136.05deg, #89e0ff 0%, #02f590 109.04%);
+}
+
+body {
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+    font-family: "Orbitron", Arial;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    scrollbar-width: thin;
+    scrollbar-color: var(--mk-main);
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: var(--mk-main);
+        border-radius: 20px;
+    }
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+a {
+    color: var(--text-color);
+}
