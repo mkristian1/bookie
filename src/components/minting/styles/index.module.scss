@@ -1,0 +1,20 @@
+.minting {
+    color: var(--mk-white);
+    min-width: 300px;
+    &__counter {
+        margin-bottom: 58px;
+    }
+    &__total {
+        max-width: 189px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 14px;
+    }
+    &__title {
+        font-weight: 700;
+        font-size: 36px;
+        margin-top: 0;
+        margin-bottom: 58px;
+    }
+}

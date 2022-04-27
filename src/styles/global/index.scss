@@ -4,8 +4,12 @@
     --mk-main: #7009ed;
     --mk-white: #fff;
     --text-color: #000000;
+    --mk-black: #19171a;
+    --mk-gray: #7e7e7e;
     --mk-boder-color: #ebebeb;
     --mk-green-gradient: linear-gradient(136.05deg, #89e0ff 0%, #02f590 109.04%);
+    --mk-input-border: 1px solid #ffffff;
+    --mk-input-shadow: 0px 0px 6px 1px #ed90fc;
 }
 
 body {
@@ -23,7 +27,7 @@ body {
     }
     &::-webkit-scrollbar-thumb {
         background-color: var(--mk-main);
-        border-radius: 20px;
+        border-radius: 0px;
     }
 }
 
@@ -38,4 +42,26 @@ p {
 
 a {
     color: var(--text-color);
+}
+
+.text-green-gradient {
+    background: var(--mk-green-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+}
+
+.text-gray {
+    color: var(--mk-gray);
+}
+.font-18 {
+    font-size: 18px;
+}
+
+.mb-1 {
+    margin-bottom: 14px;
+}
+.mb-2 {
+    margin-bottom: 28px;
 }

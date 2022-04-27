@@ -1,3 +1,9 @@
 .second-section {
-   background: rgba(31, 29, 32, 0.8);
+    background: var(--mk-black);
+    padding: 160px 0;
+    &__wrap {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }
