@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/bookie/static/css/main.c21bfa3b.css",
+    "main.css": "/bookie/static/css/main.631a4c87.css",
     "main.js": "/bookie/static/js/main.38209b79.js",
     "static/media/characters.png": "/bookie/static/media/characters.a5535463fe8d5cc6a2b3.png",
     "static/media/logo.svg": "/bookie/static/media/logo.c73109aaccdf73e3065fffd1316df5a8.svg",
@@ -18,11 +18,11 @@
     "static/media/icon-discord.svg": "/bookie/static/media/icon-discord.85d5bd7be9d18e4838a38be1aa929a52.svg",
     "static/media/icon-twitter.svg": "/bookie/static/media/icon-twitter.609f551b41b2f325df15267f2bca8796.svg",
     "index.html": "/bookie/index.html",
-    "main.c21bfa3b.css.map": "/bookie/static/css/main.c21bfa3b.css.map",
+    "main.631a4c87.css.map": "/bookie/static/css/main.631a4c87.css.map",
     "main.38209b79.js.map": "/bookie/static/js/main.38209b79.js.map"
   },
   "entrypoints": [
-    "static/css/main.c21bfa3b.css",
+    "static/css/main.631a4c87.css",
     "static/js/main.38209b79.js"
   ]
 }
