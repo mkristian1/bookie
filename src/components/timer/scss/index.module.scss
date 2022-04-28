@@ -1,7 +1,7 @@
 @import "../../../styles/mixins/index.scss";
 
 .timer {
-    padding: 400px 0 38px;
+    padding: calc(100vh - 300px) 0 38px;
     @include ipad {
         padding: 155px 0 38px;
     }
@@ -35,7 +35,7 @@
     align-items: center;
     gap: 40px;
     @include mobile {
-       gap: 20px;
-       justify-content: center;
+        gap: 20px;
+        justify-content: center;
     }
 }
