@@ -1,3 +1,5 @@
+@import "../../../styles/mixins/index.scss";
+
 .first-section {
     background-color: var(--mk-main);
     background-repeat: no-repeat;
@@ -9,5 +11,8 @@
         font-size: 36px;
         font-weight: 700;
         max-width: 725px;
+        @include tablet-lg {
+            font-size: 26px;
+        }
     }
 }

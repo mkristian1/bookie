@@ -1,8 +1,13 @@
+@import "../../../styles/mixins/index.scss";
+
 .warning-msg {
     background: var(--mk-green-gradient);
     padding: 16px 0;
     text-align: center;
     font-size: 18px;
+    @include mobile {
+        font-size: 16px;
+    }
     &__close-btn {
         float: right;
         font-size: 18px;

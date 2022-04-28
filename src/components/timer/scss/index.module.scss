@@ -1,5 +1,13 @@
+@import "../../../styles/mixins/index.scss";
+
 .timer {
     padding: 375px 0 38px;
+    @include ipad {
+        padding: 155px 0 38px;
+    }
+    @include mobile {
+        padding: 5px 0 128px;
+    }
     &__title {
         font-size: 18px;
         font-weight: 700;
@@ -12,6 +20,9 @@
     &__value {
         font-size: 36px;
         font-weight: 700;
+        @include mobile {
+            font-size: 28px;
+        }
         &_type {
             margin-bottom: 0;
         }
@@ -22,4 +33,7 @@
     display: flex;
     align-items: center;
     gap: 40px;
+    @include mobile {
+       gap: 20px;
+    }
 }
