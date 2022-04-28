@@ -1,9 +1,9 @@
+import { menu } from "../../const";
 import { logo } from "../../images";
 import SocialIcons from "../socialIcons";
 import styles from "./styles/index.module.scss"
 
 const Header = () => {
-    const menu = ['What are DB’s?', 'benefits', 'roadmap', 'team', 'faq']
     
     return (
         <header className={styles['header']}>

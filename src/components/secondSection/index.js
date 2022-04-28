@@ -1,4 +1,5 @@
 import Container from "../../layout/container";
+import Footer from "../footer";
 import ImagesBlock from "../imagesBlock";
 import Minting from "../minting";
 import styles from './styles/index.module.scss';
@@ -12,6 +13,7 @@ const SecondSection = () => {
                     <Minting />
                 </div>
             </Container>
+            <Footer />
         </div>
     )
 }
