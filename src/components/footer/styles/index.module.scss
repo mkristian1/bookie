@@ -3,12 +3,19 @@
 .footer {
     color: var(--mk-white);
     margin-top: 180px;
+    @include mobile {
+        margin-top: 80px;
+    }
     &__wrap {
         display: flex;
         justify-content: space-between;
         align-items: flex-end;
         margin-bottom: 65px;
         flex-wrap: wrap;
+        @include mobile {
+            justify-content: center;
+            text-align: center;
+        }
     }
     &__logo-wrap {
         text-align: center;
@@ -30,6 +37,10 @@
     @include tablet-md {
         padding-left: 0;
         margin: 40px 0 0;
+    }
+    @include mobile {
+        gap: 10px;
+        columns: auto;
     }
     &__item {
         margin-bottom: 38px;

@@ -9,7 +9,7 @@
     @include tablet-lg {
         flex-wrap: wrap;
         justify-content: center;
-        align-items: flex-start;
+        text-align: center;
     }
     @include mobile {
         flex-direction: column;

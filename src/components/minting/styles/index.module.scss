@@ -6,9 +6,15 @@
     @include mobile {
         min-width: auto;
         width: 100%;
+        text-align: center;
+        min-width: auto;
     }
     &__counter {
         margin-bottom: 58px;
+        max-width: 189px;
+        @include mobile {
+            max-width: initial;
+        }
     }
     &__total {
         max-width: 189px;
@@ -16,6 +22,9 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 14px;
+        @include mobile {
+            max-width: initial;
+        }
     }
     &__title {
         font-weight: 700;

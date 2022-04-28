@@ -15,5 +15,8 @@
         @include tablet-lg {
             font-size: 26px;
         }
+        @include mobile {
+            text-align: center;
+        }
     }
 }
