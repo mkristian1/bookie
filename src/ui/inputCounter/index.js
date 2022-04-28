@@ -10,7 +10,7 @@ const InputCounter = ({ value, setValue }) => {
             >
                 -
             </button>
-            <input className={styles['counter__input']} value={value} />
+            <input onChange={(e) => setValue(+e.target.value)} className={styles['counter__input']} value={value} />
             <button
                 onClick={() => setValue(prev => prev + 1)}
                 className={styles['counter__btn']}
