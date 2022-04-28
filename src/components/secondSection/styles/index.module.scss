@@ -1,9 +1,18 @@
+@import "../../../styles/mixins/index.scss";
+
 .second-section {
     background: var(--mk-black);
     padding: 160px 0 0;
+    @include laptop-xs {
+        padding: 60px 0 0;
+    }
     &__wrap {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        gap: 70px;
+        @include laptop-xs {
+            flex-direction: column;
+        }
     }
 }

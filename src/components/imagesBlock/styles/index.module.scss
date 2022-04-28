@@ -1,11 +1,45 @@
+@import "../../../styles/mixins/index.scss";
+
 .images-block {
-   width: 750px;
+   max-width: 750px;
    min-height: 750px;
+   width: 100%;
    position: relative;
+   @include ipad {
+      min-height: 500px;
+      max-width: 500px;
+   }
+   @include mobile {
+      min-height: 420px;
+      max-width: 460px;
+   }
+   @include mobile-sm {
+      min-height: 392px;
+   }
    img {
       border-radius: 50%;
       max-width: 90%;
       position: absolute;
+      transition: transform 0.9s ease-in-out;
+      cursor: pointer;
+      &:hover {
+         transform: scale(0.85) rotate(360deg);
+      }
+      @include ipad {
+         transform: scale(0.65);
+         &:hover {
+            transform: scale(0.65) rotate(360deg);
+         }
+      }
+      @include mobile {
+         transform: scale(0.45);
+         &:hover {
+            transform: scale(0.45) rotate(360deg);
+         }
+      }
+      @include mobile-sm {
+         max-width: 53%;
+      }
       &:nth-child(1) {
          width: 55%;
          margin: auto;
@@ -13,37 +47,52 @@
          right: 0;
          top: 0;
          bottom: 0;
+         @include mobile-sm {
+            width: 70%;
+         }
       }
       &:nth-child(2) {
          right: 0;
-         top: 320px;
+         top: 43%;
+         @include mobile-sm {
+            display: none;
+         }
       }
       &:nth-child(3) {
          right: 0;
-         bottom: 20px;
+         bottom: 3%;
       }
       &:nth-child(4) {
-         left: 230px;
+         left: 31%;
          bottom: 0px;
+         @include mobile-sm {
+            display: none;
+         }
       }
       &:nth-child(5) {
          left: 0;
-         bottom: 100px;
+         bottom: 13%;
       }
       &:nth-child(6) {
          left: 0;
-         top: 260px;
+         top: 35%;
+         @include mobile-sm {
+            display: none;
+         }
       }
       &:nth-child(7) {
-         left: 40px;
-         top: 10px;
+         left: 5%;
+         top: 2%;
       }
       &:nth-child(8) {
          top: 0;
-         left: 340px;
+         left: 45%;
+         @include mobile-sm {
+            display: none;
+         }
       }
       &:nth-child(9) {
-         top: 40px;
+         top: 5%;
          right: 0px;
       }
    }
