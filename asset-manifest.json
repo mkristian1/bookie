@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/bookie/static/css/main.8a36b80c.css",
+    "main.js": "/bookie/static/js/main.38209b79.js",
+    "static/media/characters.png": "/bookie/static/media/characters.a5535463fe8d5cc6a2b3.png",
+    "static/media/logo.svg": "/bookie/static/media/logo.c73109aaccdf73e3065fffd1316df5a8.svg",
+    "static/media/character_1.jpg": "/bookie/static/media/character_1.27bc0dafc7f884706a36.jpg",
+    "static/media/character_3.jpg": "/bookie/static/media/character_3.f29bc1ef5be1d443f149.jpg",
+    "static/media/character_7.jpg": "/bookie/static/media/character_7.adb14309ef294261947e.jpg",
+    "static/media/character_9.jpg": "/bookie/static/media/character_9.ad6324179bce0d7a2950.jpg",
+    "static/media/character_5.jpg": "/bookie/static/media/character_5.a75038b06795391f1b43.jpg",
+    "static/media/character_4.jpg": "/bookie/static/media/character_4.f69e857fa44a9ff7acf6.jpg",
+    "static/media/character_2.jpg": "/bookie/static/media/character_2.7ccc738936afee1da254.jpg",
+    "static/media/character_8.jpg": "/bookie/static/media/character_8.ddc1840597bd6a509fa1.jpg",
+    "static/media/character_6.jpg": "/bookie/static/media/character_6.0e53b7ce399dad5ab4cd.jpg",
+    "static/media/icon-instagram.svg": "/bookie/static/media/icon-instagram.db86cfafe9004b8f27e3478f9e6dd40c.svg",
+    "static/media/pink-bg.svg": "/bookie/static/media/pink-bg.bcfd3fca96e0a35bd636.svg",
+    "static/media/icon-discord.svg": "/bookie/static/media/icon-discord.85d5bd7be9d18e4838a38be1aa929a52.svg",
+    "static/media/icon-twitter.svg": "/bookie/static/media/icon-twitter.609f551b41b2f325df15267f2bca8796.svg",
+    "index.html": "/bookie/index.html",
+    "main.8a36b80c.css.map": "/bookie/static/css/main.8a36b80c.css.map",
+    "main.38209b79.js.map": "/bookie/static/js/main.38209b79.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8a36b80c.css",
+    "static/js/main.38209b79.js"
+  ]
+}
