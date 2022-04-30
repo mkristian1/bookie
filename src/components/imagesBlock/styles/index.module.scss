@@ -51,7 +51,7 @@
          top: 0;
          bottom: 0;
          @include mobile-sm {
-            width: 70%;
+            transform: scale(0.65);
          }
       }
       &:nth-child(2) {
@@ -64,6 +64,9 @@
       &:nth-child(3) {
          right: 0;
          bottom: 3%;
+         @include mobile-sm {
+            bottom: 0;
+         }
       }
       &:nth-child(4) {
          left: 31%;
@@ -75,6 +78,9 @@
       &:nth-child(5) {
          left: 0;
          bottom: 13%;
+         @include mobile-sm {
+            bottom: 0;
+         }
       }
       &:nth-child(6) {
          left: 0;
@@ -86,6 +92,10 @@
       &:nth-child(7) {
          left: 5%;
          top: 2%;
+         @include mobile-sm {
+            left: 0;
+            top: 0;
+         }
       }
       &:nth-child(8) {
          top: 0;
@@ -97,6 +107,9 @@
       &:nth-child(9) {
          top: 5%;
          right: 0px;
+         @include mobile-sm {
+            top: 0;
+         }
       }
    }
 }
