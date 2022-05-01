@@ -88,7 +88,7 @@
       &:nth-child(6) {
          left: 0;
          top: 35%;
-         @include mobile-sm {
+         @include mobile {
             display: none;
          }
       }
