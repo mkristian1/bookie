@@ -36,8 +36,8 @@
     grid-template-columns: auto auto;
     gap: 38px 50px;
     text-align: left;
+    padding-left: 0;
     @include tablet-md {
-        padding-left: 0;
         margin: 40px 0 0;
     }
     &__link {
