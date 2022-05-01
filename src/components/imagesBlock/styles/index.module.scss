@@ -5,6 +5,9 @@
    min-height: 750px;
    width: 100%;
    position: relative;
+   @include tablet-lg {
+      margin: auto;
+   }
    @include ipad {
       min-height: 500px;
       max-width: 500px;

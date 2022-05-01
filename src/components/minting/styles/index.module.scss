@@ -3,7 +3,7 @@
 .minting {
     color: var(--mk-white);
     min-width: 300px;
-    @include mobile {
+    @include  tablet-lg {
         min-width: auto;
         width: 100%;
         text-align: center;
@@ -12,7 +12,7 @@
     &__counter {
         margin-bottom: 58px;
         max-width: 189px;
-        @include mobile {
+        @include  tablet-lg {
             max-width: initial;
         }
     }
@@ -22,7 +22,7 @@
         align-items: center;
         justify-content: space-between;
         margin-top: 14px;
-        @include mobile {
+        @include  tablet-lg {
             max-width: initial;
         }
     }
