@@ -17,6 +17,7 @@
     }
     &__item {
         text-align: center;
+        min-width: 62px;
     }
     &__value {
         font-size: 36px;
@@ -33,7 +34,7 @@
 .time-wrap {
     display: flex;
     align-items: center;
-    gap: 40px;
+    gap: 35px;
     @include mobile {
         gap: 20px;
         justify-content: center;
